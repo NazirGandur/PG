@@ -1,0 +1,8 @@
+a=float(input('Primeiro elemento:'))
+
+q=float(input('Razão da P.G.:'))
+
+if abs(q)<1:
+    print('Soma infinita=',a/(1-q))
+else:
+    print('Série Não Convergente')
