@@ -1,0 +1,13 @@
+a=float(input('Primeiro elemento:'))
+
+q=float(input('Razão da P.G.:'))
+
+if abs(q)<1:
+    i=0
+    soma=0
+    while i<10**4:
+        soma=soma+a*(q**(i))
+        i=i+1
+    print('Soma infinita=',soma)
+else:
+    print('Série Não Convergente')
